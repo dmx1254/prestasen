@@ -4,16 +4,19 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
   return (
-    <section className="flex items-center justify-center w-full border-b border-gray-200">
+    <section className="flex items-center h-[70px] justify-center w-full border-b border-gray-300 bg-inherit z-[100]">
       <nav className="flex items-center justify-between w-full h-[60px] px-4">
-        <h1 className="flex text-xl font-ibm-plex-serif text-stroke">
+        <Link
+          href="/"
+          className="flex text-xl font-ibm-plex-serif text-stroke text-black"
+        >
           PrestaSen
-        </h1>
+        </Link>
 
         <div className="flex items-center gap-4 font-ibm-plex-serif">
           <Link
             href="#"
-            className="text-sm flex items-center justify-center  bg-orange-600 text-white rounded p-2"
+            className="text-sm flex items-center justify-center  bg-orange-600 transition duration-300 ease-in-out hover:opacity-90 text-white rounded p-2"
           >
             Devenir partenaire
           </Link>

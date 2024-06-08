@@ -61,6 +61,8 @@ const config = {
       fontFamily: {
         inter: "var(--font-inter)",
         "ibm-plex-serif": "var(--font-ibm-plex-serif)",
+        monteserrat: "var(--font-monteserrat)",
+        mulish: "var(--font-mulish)",
       },
       keyframes: {
         "accordion-down": {
