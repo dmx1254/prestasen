@@ -22,7 +22,7 @@ const PageSteps = () => {
   //   console.log("donnes de index", steps[index]);
   //   console.log(percentColor);
 
-  console.log("stepper: " + stepper, "index: " + index);
+  // console.log("stepper: " + stepper, "index: " + index);
 
   useEffect(() => {
     router.push(`#/${stepsJobs?.stepLink}`);
